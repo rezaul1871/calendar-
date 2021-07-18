@@ -1,2 +1,2 @@
-# calender-
+# calendar-
 I make this calender using Html and CSS grid
