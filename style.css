@@ -1,0 +1,90 @@
+main{
+    max-width: max-content;
+    margin: 16px auto 0 auto;
+    padding: 1.5em;
+    background-color: blanchedalmond;
+    border: 2px solid blue;
+    border-radius: 8px;
+}
+html {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 125%;
+    line-height: 1.4;
+    font-weight: 400;
+  }
+.month-indector { 
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;   
+}
+
+.previous {
+    float: left;
+    background-color: #f1f1f1;
+    color: black;
+  }
+  
+  .next {
+      float: right;
+    background-color: #e5e7e5;
+    color: rgb(17, 129, 173);
+  }
+.day-of-week , .data-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    font-size: 2em;
+}
+.day-of-week {
+    margin-top: 20px;
+    font-size: 2em;
+}
+.day-of-week > * {
+    font-size: 0.7em;
+    color: blueviolet;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    font-variant: small-caps;
+    text-align: center;
+}
+.data-grid {
+    margin-top: 8px;
+    font-size: 2em;
+    grid-gap: 5px;
+}
+
+.january-firstday{
+    grid-column-start: 6;
+}
+.february-firstday{
+    grid-column-start: 2;
+}
+.march-firstday{
+    grid-column-start: 2;
+}
+.april-firstday{
+    grid-column-start: 5 ;
+}
+.may-firstday{
+    grid-column-start: 7;
+}
+.june-firstday{
+    grid-column-start: 3;
+}
+.july-firstday{
+    grid-column-start: 5 ;
+}
+.august-firstday{
+    grid-column-start: 1;
+}
+.septembar-firstday{
+    grid-column-start: 4;
+}
+.october-firstday{
+    grid-column-start: 6;
+}
+.november-firstday{
+    grid-column-start: 2;
+}
+.december-firstday{
+    grid-column-start: 4;
+}
